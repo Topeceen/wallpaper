@@ -96,6 +96,8 @@ onUnload(()=>{
 </script>
 
 <style lang="scss" scoped>
+@import "@/common/style/base-style.scss";
+@import "@/common/style/common-style.scss";
 .classlist{
 	.content{
 		display: grid;

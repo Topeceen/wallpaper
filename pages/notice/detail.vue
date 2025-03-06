@@ -50,6 +50,8 @@ const getNoticeDetail = ()=>{
 </script>
 
 <style lang="scss" scoped>
+	@import "@/common/style/base-style.scss";
+	@import "@/common/style/common-style.scss";
 .noticeLayout{
 	padding:30rpx;
 		.title{

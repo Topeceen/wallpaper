@@ -7,8 +7,13 @@
 		
 		
 		<view class="banner">
-			<swiper circular indicator-dots indicator-color="rgba(255,255,255,0.5)" 
-			indicator-active-color="#fff" autoplay>
+			<swiper 
+			circular 
+			indicator-dots 
+			indicator-color="rgba(255,255,255,0.5)" 
+			indicator-active-color="#fff" 
+			autoplay
+			>
 				<swiper-item v-for="item in bannerList" :key="item._id">
 					
 					<navigator v-if="item.target == 'miniProgram'" 
@@ -166,6 +171,9 @@ getClassify();
 </script>
 
 <style lang="scss" scoped>
+@import "@/common/style/base-style.scss";
+@import "@/common/style/common-style.scss";
+
 .homeLayout{
 	.banner{
 		width: 750rpx;

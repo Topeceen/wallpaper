@@ -167,6 +167,8 @@ onUnload(()=>{
 </script>
 
 <style lang="scss" scoped>
+	@import "@/common/style/base-style.scss";
+	@import "@/common/style/common-style.scss";
 .searchLayout{
 	.search{
 		padding:0 10rpx;

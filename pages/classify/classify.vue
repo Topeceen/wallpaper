@@ -50,6 +50,8 @@ getClassify();
 </script>
 
 <style lang="scss" scoped>
+	@import "@/common/style/base-style.scss";
+	@import "@/common/style/common-style.scss";
 .classify{
 	padding:30rpx;
 	display: grid;

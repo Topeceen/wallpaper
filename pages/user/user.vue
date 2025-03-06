@@ -84,6 +84,7 @@
 </template>
 
 <script setup lang="ts">
+	
 import { apiUserInfo } from '../../api/apis';
 import { getNavBarHeight } from '../../utils/system';
 import { ref } from "vue";
@@ -108,7 +109,8 @@ getUserInfo();
 </script>
 
 <style lang="scss" scoped>
-@import "../../common/style/common-style.scss";
+@import "@/common/style/base-style.scss";
+@import "@/common/style/common-style.scss";
 .userLayout{
 	.userInfo{
 		display: flex;
